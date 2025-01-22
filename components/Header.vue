@@ -1,17 +1,12 @@
-<template>
-  <header>
-    <h1>Добро пожаловать на мой сайт</h1>
+<template #header>
+  <header class="flex justify-between">
+    <h1>Welcome to my website!</h1>
+    <ColorScheme><USelect v-model="$colorMode.preference" :options="['system', 'light', 'dark']" /></ColorScheme>
   </header>
 </template>
 
-<script setup>
+<script>
+export default {
 
-</script>
-
-<style scoped>
-header {
-  background-color: #f5f5f5;
-  text-align: center;
-  padding: 1rem;
 }
-</style>
+</script>
