@@ -272,7 +272,7 @@
           mensigroup (2024)
         </ULink>
         <UContainer class="flex flex-wrap gap-3 mb-2 mt-2 px-0 sm:px-0 lg:px-0">
-          <UButton>Vue3</UButton>
+          <UButton>Laravel</UButton>
           <UButton>JavaScript</UButton>
           <UButton>Axios</UButton>
         </UContainer>

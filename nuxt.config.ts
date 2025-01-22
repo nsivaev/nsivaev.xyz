@@ -3,10 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/ui"],
 
-  nitro: {
-    preset: 'static'
-  },
-
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
