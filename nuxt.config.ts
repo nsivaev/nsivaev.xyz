@@ -7,6 +7,12 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       title: "nsivaev.xyz",
+      link: [
+        { rel: 'manifest', href: '/site.webmanifest' }
+      ],
+      meta: [
+        { name: 'theme-color', content: '#ffffff' }
+      ]
     }
   },
 
