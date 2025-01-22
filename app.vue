@@ -12,7 +12,7 @@
       <UButton
           to="https://github.com/nsivaev"
           target="_blank"
-          icon="grommet-icons:github"
+          icon="line-md:github-loop"
           size="sm"
           color="primary"
           variant="link"
@@ -22,7 +22,7 @@
       <UButton
           to="https://linkedin.com/in/nikolai-sivaev-1a35a5348"
           target="_blank"
-          icon="grommet-icons:linkedin"
+          icon="line-md:linkedin"
           size="sm"
           color="primary"
           variant="link"
@@ -31,7 +31,7 @@
       />
       <UButton
           to="mailto:nsivaev77@gmail.com"
-          icon="grommet-icons:mail"
+          icon="line-md:email"
           size="sm"
           color="primary"
           variant="link"
