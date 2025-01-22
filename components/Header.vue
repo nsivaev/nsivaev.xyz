@@ -1,6 +1,8 @@
 <template #header>
   <header class="flex justify-between">
-    <UHorizontalNavigation :links="links" class="flex justify-center border-b border-gray-200 dark:border-gray-800" />
+    <UHorizontalNavigation :links="links"
+                           class="hidden md:flex justify-center pb-5 border-b border-gray-200 dark:border-gray-800"/>
+    <UVerticalNavigation :links="links" class="md:hidden"/>
   </header>
 </template>
 
@@ -10,17 +12,21 @@ const links = [{
   avatar: {
     src: 'https://avatars.githubusercontent.com/u/101824119?v=4'
   },
+  to: '/'
 }, {
   label: 'Обо мне',
   icon: 'i-heroicons-document',
-  to: '/getting-started/installation'
+  to: '/about'
 }, {
-  label: 'Проекты',
+  label: 'Портфолио',
   icon: 'i-heroicons-command-line',
-  to: '/components/horizontal-navigation'
+  to: '/portfolio'
 }, {
   label: 'Контакты',
   icon: 'i-heroicons-link',
-  to: '/components/command-palette'
+  to: '/contacts'
 }]
 </script>
+
+<style scoped>
+</style>
