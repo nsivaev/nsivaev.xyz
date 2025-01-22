@@ -2,13 +2,32 @@
   <div>
     <UContainer class="flex gap-3 justify-center flex-wrap px-0 sm:px-0 lg:px-0">
       <UButton
-          to="https://vk.ru/nsivaev"
-          icon="line-md:external-link"
+          to="https://github.com/nsivaev"
           target="_blank"
+          icon="line-md:github-loop"
           size="sm"
           color="primary"
           variant="link"
-          label="VK"
+          label="GitHub"
+          :trailing="false"
+      />
+      <UButton
+          to="https://linkedin.com/in/nikolai-sivaev-1a35a5348"
+          target="_blank"
+          icon="line-md:linkedin"
+          size="sm"
+          color="primary"
+          variant="link"
+          label="LinkedIn"
+          :trailing="false"
+      />
+      <UButton
+          to="mailto:nsivaev77@gmail.com"
+          icon="line-md:email"
+          size="sm"
+          color="primary"
+          variant="link"
+          label="Mail"
           :trailing="false"
       />
       <UButton

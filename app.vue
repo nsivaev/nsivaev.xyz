@@ -8,7 +8,7 @@
         <NuxtPage/>
       </UContainer>
     </UCard>
-    <UContainer class="mt-5 mb-5 flex gap-3 justify-center">
+    <UContainer class="mt-5 mb-5 flex gap-3 justify-center" v-if="route.name !== 'contacts'">
       <UButton
           to="https://github.com/nsivaev"
           target="_blank"
@@ -43,6 +43,9 @@
 </template>
 
 <script setup lang="ts">
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
 </script>
 
 <style scoped>
