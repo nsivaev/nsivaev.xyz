@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/nsivaev.xyz/' : '/',
+    baseURL: '/',
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       title: "nsivaev.xyz",
