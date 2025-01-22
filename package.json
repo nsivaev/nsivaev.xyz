@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "homepage": "/",
   "scripts": {
     "deploy": "gh-pages -d .output/public",
     "build": "nuxt build",
