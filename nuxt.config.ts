@@ -11,7 +11,11 @@ export default defineNuxtConfig({
         { rel: 'manifest', href: '/site.webmanifest' }
       ],
       meta: [
-        { name: 'theme-color', content: '#ffffff' }
+        { name: 'theme-color', content: '#ffffff' },
+        { property: 'og:title', content: 'Мой сайт-визитка' },
+        { property: 'og:description', content: 'Фронтенд-разработчик с опытом создания современных веб-приложений' },
+        { property: 'og:url', content: 'https://nsivaev.xyz' },
+        { property: 'og:type', content: 'website' },
       ]
     }
   },

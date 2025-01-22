@@ -1,8 +1,6 @@
 {
   "name": "nsivaev.xyz",
   "short_name": "nsivaev",
-  "theme_color": "#a3e636",
-  "background_color": "#121212",
   "display": "standalone",
   "start_url": "/",
   "icons": [
