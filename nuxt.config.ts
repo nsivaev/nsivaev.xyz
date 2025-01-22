@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
 
-    baseURL: '/',
+    baseURL: '/nsivaev.xyz/',
 
     head: {
       title: "nsivaev.xyz",

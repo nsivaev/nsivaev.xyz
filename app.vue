@@ -45,7 +45,7 @@
 <script setup lang="ts">
 </script>
 
-<style>
+<style scoped>
 .page-enter-active,
 .page-leave-active {
   transition: all 0.3s;
