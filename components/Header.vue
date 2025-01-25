@@ -1,7 +1,7 @@
 <template #header>
   <header class="flex justify-between">
     <UHorizontalNavigation :links="links"
-                           class="hidden md:flex justify-center pb-5 border-b border-gray-200 dark:border-gray-800"/>
+                           class="header__nav hidden md:flex justify-center pb-5 border-b border-gray-200 dark:border-gray-800"/>
     <UVerticalNavigation :links="links" class="md:hidden"/>
   </header>
 </template>

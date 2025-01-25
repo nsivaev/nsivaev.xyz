@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/ui"],
+  css: ['@/assets/styles/fonts.css'],
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
