@@ -150,6 +150,29 @@
         </UContainer>
       </UContainer>
     </UContainer>
+    <!--  legoFace  -->
+    <UContainer class="mb-10 mt-0 px-0 sm:px-0 lg:px-0">
+      <UCarousel v-slot="{ item }" :items="legoFace" :ui="{ item: 'basis-full' }" class="rounded-lg overflow-hidden"
+                 arrows>
+        <img :src="item" class="w-full object-cover object-left" draggable="false" alt="image"/>
+      </UCarousel>
+      <UContainer class="mb-2 mt-2 px-0 sm:px-0 lg:px-0">
+        <ULink
+            to="https://github.com/nsivaev/ironov-frontend-test-task/"
+            target="_blank"
+            active-class="text-primary"
+            inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
+          LegoFace (2025)
+        </ULink>
+        <UContainer class="flex flex-wrap gap-3 mb-2 mt-2 px-0 sm:px-0 lg:px-0">
+          <UButton>Vite</UButton>
+          <UButton>Vue3</UButton>
+          <UButton>Pinia</UButton>
+          <UButton>Router</UButton>
+          <UButton>html2canvas</UButton>
+        </UContainer>
+      </UContainer>
+    </UContainer>
     <!--hackathon-->
     <UContainer class="mb-10 mt-0 px-0 sm:px-0 lg:px-0">
       <h2 class="text-center mb-5">
@@ -329,6 +352,12 @@ const marhouse = [
   '/images/mar-house/mar-house1.webp',
   '/images/mar-house/mar-house2.webp',
   '/images/mar-house/mar-house3.webp'
+]
+
+const legoFace = [
+    '/images/lego-face/lego-face1.webp',
+    '/images/lego-face/lego-face2.webp',
+    '/images/lego-face/lego-face3.webp',
 ]
 </script>
 
