@@ -20,13 +20,13 @@
           :trailing="false"
       />
       <UButton
-          to="https://linkedin.com/in/nikolai-sivaev-1a35a5348"
+          to="https://t.me/nsivaev77"
+          icon="line-md:telegram"
           target="_blank"
-          icon="line-md:linkedin"
           size="sm"
           color="primary"
           variant="link"
-          label="LinkedIn"
+          label="Telegram"
           :trailing="false"
       />
       <UButton

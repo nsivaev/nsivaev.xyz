@@ -7,14 +7,14 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
-      title: "nsivaev.xyz",
+      title: "Николай Сиваев",
       link: [
         { rel: 'manifest', href: '/site.webmanifest' }
       ],
       meta: [
-        { name: 'theme-color', content: '#ffffff' },
-        { property: 'og:title', content: 'Мой сайт-визитка' },
-        { property: 'og:description', content: 'Фронтенд-разработчик с опытом создания современных веб-приложений' },
+        { name: 'theme-color', content: '#121212' },
+        { property: 'og:title', content: 'Николай Сиваев' },
+        { property: 'og:description', content: 'Фронтенд-разработчик' },
         { property: 'og:image', content: 'https://nsivaev.xyz/images/meta.png' },
         { property: 'og:url', content: 'https://nsivaev.xyz' },
         { property: 'og:type', content: 'website' },

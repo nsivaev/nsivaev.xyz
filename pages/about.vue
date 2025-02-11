@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h2 class="mb-5">Мне 21. Во фронте с конца 2022 года. С декабря 2023 года работаю в
+    <h2 class="mb-5">Мне 21 год. Во фронтенде с конца 2022 года. С февраля 2025 — Стажёр в
       <ULink
-          to="https://studio-aw.ru/"
+          to="https://artlebedev.ru/"
           target="_blank"
           active-class="text-primary"
           inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
-        диджитал-студии
+        Студии Артемия Лебедева
       </ULink>
     </h2>
     <div class="mb-5">В 2023 году закончил
@@ -92,14 +92,18 @@
         <UButton>Django</UButton>
       </UContainer>
     </div>
-    <div>Каждый день продолжаю изучать что-то новое и не стою на месте 👨🏻‍💻</div>
+    <div class="mb-5">С февраля 2025 года — Стажёр "Кодер" в
+      <ULink
+          to="https://artlebedev.ru"
+          target="_blank"
+          active-class="text-primary"
+          inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
+        Студии Артемия Лебедева
+      </ULink>
+      <UContainer class="flex flex-wrap gap-3 mb-2 mt-2 px-0 sm:px-0 lg:px-0">
+        <UButton>Vue.js</UButton>
+        <UButton>Nuxt.js</UButton>
+      </UContainer>
+    </div>
   </div>
 </template>
-
-<script setup lang="ts">
-
-</script>
-
-<style scoped>
-
-</style>

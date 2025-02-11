@@ -12,16 +12,6 @@
           :trailing="false"
       />
       <UButton
-          to="https://linkedin.com/in/nikolai-sivaev-1a35a5348"
-          target="_blank"
-          icon="line-md:linkedin"
-          size="sm"
-          color="primary"
-          variant="link"
-          label="LinkedIn"
-          :trailing="false"
-      />
-      <UButton
           to="mailto:nsivaev77@gmail.com"
           icon="line-md:email"
           size="sm"
@@ -41,13 +31,23 @@
           :trailing="false"
       />
       <UButton
+          to="https://linkedin.com/in/nikolai-sivaev-1a35a5348"
+          target="_blank"
+          icon="line-md:linkedin"
+          size="sm"
+          color="primary"
+          variant="link"
+          label="LinkedIn*"
+          :trailing="false"
+      />
+      <UButton
           to="https://www.instagram.com/nsivaev77"
           icon="line-md:instagram"
           target="_blank"
           size="sm"
           color="primary"
           variant="link"
-          label="Instagram"
+          label="Instagram*"
           :trailing="false"
       />
       <UButton
@@ -57,9 +57,12 @@
           size="sm"
           color="primary"
           variant="link"
-          label="X"
+          label="X*"
           :trailing="false"
       />
+    </UContainer>
+    <UContainer class="mt-10">
+      * — запрещен на территории РФ
     </UContainer>
   </div>
 </template>
