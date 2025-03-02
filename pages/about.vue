@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="mb-5">Мне 21 год. Во фронтенде с конца 2022 года. С февраля 2025 — Стажёр в
+    <h2 class="mb-5">Мне 21 год. Во фронтенде с конца 2022 года. С февраля 2025 — кодер-стажер в
       <ULink
           to="https://artlebedev.ru/"
           target="_blank"
@@ -63,8 +63,7 @@
     <div class="mb-5">После выпуска, в декабре, попал в диджитал-студию
       <UContainer class="flex flex-wrap gap-3 mb-2 mt-2 px-0 sm:px-0 lg:px-0">
         <UButton>Laravel (blade)</UButton>
-        <UButton>Vue.js</UButton>
-        <UButton>Nuxt</UButton>
+        <UButton>Vue 2</UButton>
         <UButton>Astro</UButton>
         <UButton>БЭМ</UButton>
         <UButton>GitLab</UButton>
@@ -92,7 +91,7 @@
         <UButton>Django</UButton>
       </UContainer>
     </div>
-    <div class="mb-5">С февраля 2025 года — Стажёр "Кодер" в
+    <div class="mb-5">С февраля 2025 года — кодер-стажер в
       <ULink
           to="https://artlebedev.ru"
           target="_blank"
@@ -101,8 +100,8 @@
         Студии Артемия Лебедева
       </ULink>
       <UContainer class="flex flex-wrap gap-3 mb-2 mt-2 px-0 sm:px-0 lg:px-0">
-        <UButton>Vue.js</UButton>
-        <UButton>Nuxt.js</UButton>
+        <UButton>Vue 3</UButton>
+        <UButton>Nuxt 3</UButton>
       </UContainer>
     </div>
   </div>
