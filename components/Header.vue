@@ -27,7 +27,7 @@ const links = [{
   },
   to: '/'
 }, {
-  label: 'Про меня',
+  label: 'О себе',
   icon: 'i-heroicons-document',
   to: '/about'
 },

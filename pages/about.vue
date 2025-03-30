@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="mb-5">Мне 21 год. Во фронтенде с конца 2022 года. С февраля 2025 — кодер-стажер в
+    <h2 class="mb-5">Мне 22 года. Во фронтенде с конца 2022 года. С февраля 2025 — кодер-стажер в
       <ULink
           to="https://artlebedev.ru/"
           target="_blank"
@@ -17,12 +17,8 @@
           inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
         Московское Военно-музыкальное Училище
       </ULink>
-      <UContainer class="flex flex-wrap gap-3 mb-2 mt-2 px-0 sm:px-0 lg:px-0">
-        <UButton>Педагог</UButton>
-        <UButton>Артист</UButton>
-      </UContainer>
     </div>
-    <div class="mb-5">Начинал с курса по верстке на
+    <div class="mb-5">Курс по верстке на
       <ULink
           to="https://stepik.org/course/38218/promo?search=6385111185"
           target="_blank"
@@ -37,7 +33,7 @@
         <UButton>netlify</UButton>
       </UContainer>
     </div>
-    <div class="mb-5">Затем прошел stage-0 и stage-1 курса
+    <div class="mb-5">Stage-0, 1 от
       <ULink
           to="https://rs.school/"
           target="_blank"
@@ -60,25 +56,19 @@
         [репозиторий]
       </ULink>
     </div>
-    <div class="mb-5">После выпуска, в декабре, попал в диджитал-студию
+    <div class="mb-5">С декабря 2023 года, работал в диджитал-студии
       <UContainer class="flex flex-wrap gap-3 mb-2 mt-2 px-0 sm:px-0 lg:px-0">
-        <UButton>Laravel (blade)</UButton>
+        <UButton>Laravel</UButton>
+        <UButton>PHP</UButton>
+        <UButton>CMS Wordpress</UButton>
         <UButton>Vue 2</UButton>
+        <UButton>Nuxt 3</UButton>
         <UButton>Astro</UButton>
         <UButton>БЭМ</UButton>
         <UButton>GitLab</UButton>
       </UContainer>
     </div>
-    <div class="mb-5">Совмещал с IT школой для детей 6-14 лет
-      <ULink
-          to="https://kiber-one.com/"
-          target="_blank"
-          active-class="text-primary"
-          inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
-        Kiber One
-      </ULink>
-    </div>
-    <div class="mb-5">В декабре 2024 года закончил курс
+    <div class="mb-5">Курс по JavaScript и Python
       <ULink
           to="https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript"
           target="_blank"
